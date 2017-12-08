@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
+  },
+  "rules": {
+    "indent": ["off", 2],
+    "no-mixed-spaces-and-tabs": "off",
+    "camelcase": "off",
+    "eqeqeq": "off",
+    "curly": "off",
+    "no-undef": "off",
+    "no-unused-vars": "off"
+  }
+}

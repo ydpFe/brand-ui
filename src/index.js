@@ -1,0 +1,10 @@
+export { default as Button } from './components/button';
+export { default as Loading } from './components/loading';
+export { default as Video } from './components/video';
+export { default as Picker } from './components/picker';
+export { default as Popup } from './components/popup';
+export { default as BaseList } from './components/baseList';
+export { default as Swiper } from './components/swiper';
+export { default as Toast } from './components/toast';
+export { default as Tab } from './components/tab';
+export { default as Slider } from './components/slider';

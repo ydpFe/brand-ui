@@ -1,0 +1,64 @@
+@itemHeight: 36px;
+@picker: brand-picker;
+.@{picker}-wrapper {
+  overflow: hidden;
+  position: relative;
+  margin-top: 18px;
+  touch-action: none;
+  .@{picker} {
+    width: 100%;
+    box-sizing: border-box;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+    transform-style: preserve-3d;
+  }
+
+  .@{picker}-item {
+    height: @itemHeight;
+    line-height: @itemHeight;
+    text-align: center;
+    color: #999;
+    font-size: 18px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    transform-origin: center center;
+    box-sizing: border-box;
+    transition-timing-function: ease-out;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+    transform-style: preserve-3d;
+  }
+
+  .@{picker}-item-selected {
+    color: #000;
+  }
+
+  .@{picker}-center {
+    height: @itemHeight;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    z-index: 100;
+    margin-top: -18px;
+    pointer-events: none;
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+  }
+}
