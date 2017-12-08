@@ -1,7 +1,10 @@
 # brand-ui 
 react组件库（移动端）<br/>
 
-## 名字由来：
+## 地址：
+https://brand-ui.github.io
+
+### 名字由来：
 大学打lol的时候玩的最溜的英雄就是 复仇焰魂-布兰德，所以命名叫brand-ui，用来记念我过去的大学时光。
 
 项目结构
@@ -11,6 +14,7 @@ react组件库（移动端）<br/>
 |   ├── webpack.base.config.js             webpack基础配置
 |   ├── webpack.dist.component.config.js   webpack生产配置
 |   ├── webpack.dist.all.config.js         webpack生产配置
+|   ├── webpack.dist.config.js             webpackdist配置
 |   └── webpack.dev.config.js              webpack开发配置
 ├── examples: demo详情 
 |   ├── pages                              demo页面
@@ -18,6 +22,9 @@ react组件库（移动端）<br/>
 |   ├── index.html                         html文件
 |   ├── main.js                            react实例和router定义
 |   └── router.js                          router配置
+├── dist: 编译后的demo文件目录
+|   ├── index.html                         index.html
+|   └── main.js                            总体js文件
 ├── lib: 编译后的文件目录
 |   ├── baseList                           编译后的组件文件
 |       ├── index.js                       组件js文件
