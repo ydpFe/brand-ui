@@ -41,7 +41,7 @@ react组件库（移动端）<br/>
 ```
 ### 安装依赖
 
-npm i brand-ui
+npm i brand-ui --save
 
 ### 本地服务与热更新
 npm run dev
