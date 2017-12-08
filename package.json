@@ -33,7 +33,8 @@
     "build:style": "gulp --gulpfile build/build-style.js",
     "build:component": "webpack --config build/webpack.dist.component.config.js",
     "build:all": "webpack --config build/webpack.dist.all.config.js",
-    "build": "npm run build:style && npm run build:component && npm run build:all"
+    "build": "npm run build:style && npm run build:component && npm run build:all",
+    "dist": "webpack --config build/webpack.dist.config.js"
   },
   "dependencies": {
     "lodash.findindex": "^4.6.0",
